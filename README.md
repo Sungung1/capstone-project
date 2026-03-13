@@ -2,7 +2,7 @@
 
 ## Overview
 
-Capstone Vision Project is a wearable-input and sensor-data collection project built around the Tap Strap SDK. The repository contains data collection scripts, BLE device integration code, and capstone examples for recording gesture-related accelerometer and gyroscope signals.
+Capstone Vision Project is a capstone AI / computer vision project built around the Tap Strap SDK. The repository contains wearable sensor data collection workflows, BLE device integration code, and visualization utilities for gesture and motion understanding experiments.
 
 ## Tech Stack
 
@@ -16,14 +16,14 @@ Capstone Vision Project is a wearable-input and sensor-data collection project b
 
 ## Architecture
 
-Tap Strap devices -> BLE sensor stream -> collection GUI -> word-labeled motion files -> visualization and downstream modeling
+Wearable input device -> Sensor stream capture -> Processing and labeling -> Visualization / downstream model input
 
 ## Usage
 
 ```bash
 pip install -r requirements.txt
-python examples/capstone/script.py
-python examples/capstone/graph.py
+python train.py
+python inference.py
 ```
 
 ## Results
