@@ -4,6 +4,8 @@
 
 Capstone Vision Project is a capstone AI / computer vision project built around the Tap Strap SDK. The repository contains wearable sensor data collection workflows, BLE device integration code, and visualization utilities for gesture and motion understanding experiments.
 
+Related repository: [dla8156/CapstoneDesign](https://github.com/dla8156/CapstoneDesign)
+
 ## Tech Stack
 
 - Python
